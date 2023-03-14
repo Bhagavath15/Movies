@@ -1,0 +1,19 @@
+.game-box {
+  border: 1px solid black;
+  color: white;
+  width: 160px;
+  height: 160px;
+  font-size: 160px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: min-content;
+  margin: 0 auto
+}
